@@ -283,7 +283,7 @@ impl Vector {
     }
 
     /// Return raw internal value.
-    pub fn raw_value(&self) -> &u32 {
+    pub fn raw_value(&self) -> *u32 {
         &self.data
     }
 }
